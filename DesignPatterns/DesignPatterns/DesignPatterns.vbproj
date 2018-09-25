@@ -96,6 +96,10 @@
     </Compile>
     <Compile Include="Singleton\Singleton.vb" />
     <Compile Include="Singleton\SingletonUse.vb" />
+    <Compile Include="Strategy\ConsoleLog.vb" />
+    <Compile Include="Strategy\FileLog.vb" />
+    <Compile Include="Strategy\ILogType.vb" />
+    <Compile Include="Strategy\Log.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Forms\FrmDesignPatterns.resx">

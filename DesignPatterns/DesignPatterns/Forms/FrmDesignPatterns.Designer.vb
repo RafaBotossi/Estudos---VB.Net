@@ -23,6 +23,7 @@ Partial Class FrmDesignPatterns
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.BtnSingleton = New System.Windows.Forms.Button()
+        Me.btnStrategy = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'BtnSingleton
@@ -34,11 +35,21 @@ Partial Class FrmDesignPatterns
         Me.BtnSingleton.Text = "Check Singleton Pattern"
         Me.BtnSingleton.UseVisualStyleBackColor = True
         '
+        'btnStrategy
+        '
+        Me.btnStrategy.Location = New System.Drawing.Point(191, 12)
+        Me.btnStrategy.Name = "btnStrategy"
+        Me.btnStrategy.Size = New System.Drawing.Size(173, 46)
+        Me.btnStrategy.TabIndex = 1
+        Me.btnStrategy.Text = "Check Strategy Pattern"
+        Me.btnStrategy.UseVisualStyleBackColor = True
+        '
         'FrmDesignPatterns
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btnStrategy)
         Me.Controls.Add(Me.BtnSingleton)
         Me.Name = "FrmDesignPatterns"
         Me.Text = "Formulário de Testes de Design Patterns"
@@ -47,4 +58,5 @@ Partial Class FrmDesignPatterns
     End Sub
 
     Friend WithEvents BtnSingleton As Button
+    Friend WithEvents btnStrategy As Button
 End Class

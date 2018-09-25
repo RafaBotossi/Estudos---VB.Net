@@ -1,4 +1,6 @@
-﻿Public Class SingletonClass
+﻿Namespace SingleTon
+
+    Public Class SingletonClass
 
     Private Shared _IsSingleton As Boolean
 
@@ -18,3 +20,5 @@
 
 
 End Class
+
+End Namespace

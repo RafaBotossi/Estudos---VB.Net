@@ -6,8 +6,9 @@
         End Sub
 
         'O Design Patterns Singleton indica o uso de apenas um ponto de acesso ao objecto
-        'Usado em classes 'shared' para uso global da mesma instância de objeto, como indicado em: https://www.dofactory.com/net/singleton-design-pattern (exemplo na classe Singleton)
+        'Usado em classes 'shared' para uso global da mesma instância de objeto, como indicado na fonte abaixo (exemplo na classe Singleton)
         'Em meus exemplos da vida real, uso muito em variáveis 'privadas' da classe que precisam ser acessadas de diversos pontos e devem ser sempre o mesmo objeto, também uso lazy init, assim não nos preocupamos com sua 'inicialização'
+        'Veja mais em: https://www.dofactory.com/net/singleton-design-pattern
         Private _IsSingleton As Boolean
         Private Property IsSingleton() As Boolean
             Get

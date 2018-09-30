@@ -24,6 +24,7 @@ Partial Class FrmDesignPatterns
     Private Sub InitializeComponent()
         Me.BtnSingleton = New System.Windows.Forms.Button()
         Me.btnStrategy = New System.Windows.Forms.Button()
+        Me.btnFacade = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'BtnSingleton
@@ -44,11 +45,21 @@ Partial Class FrmDesignPatterns
         Me.btnStrategy.Text = "Check Strategy Pattern"
         Me.btnStrategy.UseVisualStyleBackColor = True
         '
+        'btnFacade
+        '
+        Me.btnFacade.Location = New System.Drawing.Point(370, 12)
+        Me.btnFacade.Name = "btnFacade"
+        Me.btnFacade.Size = New System.Drawing.Size(173, 46)
+        Me.btnFacade.TabIndex = 2
+        Me.btnFacade.Text = "Check Facade Pattern"
+        Me.btnFacade.UseVisualStyleBackColor = True
+        '
         'FrmDesignPatterns
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btnFacade)
         Me.Controls.Add(Me.btnStrategy)
         Me.Controls.Add(Me.BtnSingleton)
         Me.Name = "FrmDesignPatterns"
@@ -59,4 +70,5 @@ Partial Class FrmDesignPatterns
 
     Friend WithEvents BtnSingleton As Button
     Friend WithEvents btnStrategy As Button
+    Friend WithEvents btnFacade As Button
 End Class

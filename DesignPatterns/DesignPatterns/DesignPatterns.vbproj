@@ -73,6 +73,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Facade\Facade.vb" />
+    <Compile Include="Facade\Subsystem4 .vb" />
+    <Compile Include="Facade\Subsystem3 .vb" />
+    <Compile Include="Facade\Subsystem2 .vb" />
+    <Compile Include="Facade\Subsystem1.vb" />
     <Compile Include="Forms\FrmDesignPatterns.Designer.vb">
       <DependentUpon>FrmDesignPatterns.vb</DependentUpon>
     </Compile>
